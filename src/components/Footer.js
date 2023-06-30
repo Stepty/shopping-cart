@@ -26,7 +26,7 @@ export default function Footer() {
               <div className="footer-link">
                 <h3>Newsletter</h3>
                 <form>
-                  <input type="email"></input>
+                  <input placeholder="email@gmail.com" type="email"></input>
                   <button>Subscribe</button>
                 </form>
               </div>
@@ -49,7 +49,7 @@ export default function Footer() {
           <div className="footer-below">
             <div className="footer-copyright">
               <p>
-                @{new Date().getFullYear()} Shop-A-Lot. All rights reserved.
+                @{new Date().getFullYear()} Shop A Lot. All Rights Reserved.
               </p>
             </div>
             <div className="github">
@@ -57,7 +57,7 @@ export default function Footer() {
               <p>Created by Stephen Ni </p>
             </div>
             <div className="footer-terms">
-              <p>Terms & conditions</p>
+              <p>Terms & Conditions</p>
               <p>Privacy</p>
               <p>Security</p>
             </div>
