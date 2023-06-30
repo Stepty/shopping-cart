@@ -15,9 +15,12 @@ import About from './pages/About';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
+      
       <Route index element={<Home />} />
       <Route path="shop" element={<Shop />} />
       <Route path="about" element={<About />} />
+
+      {/* 404 Page */}
       <Route path="*" element={<NotFound />} />
     </Route>
   )
