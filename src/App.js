@@ -10,7 +10,7 @@ import RootLayout from './layouts/RootLayout';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
 import About from './pages/About';
-
+import GlobalStyles from './components/styles/Global';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,7 +27,10 @@ const router = createBrowserRouter(
 )
 function App() {
   return (
-    <RouterProvider router={router} />
+    <>
+      <GlobalStyles />
+      <RouterProvider router={router} />
+    </>
   );
 }
 
